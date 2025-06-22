@@ -4,7 +4,7 @@ if n == 0:
     print(False)
 else:
     i = 2
-    original = n
+
     while n % i == 0:
         n = n // i
         i += 1
