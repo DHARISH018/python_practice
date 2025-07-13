@@ -1,5 +1,7 @@
 a=input()
+count=0
 word=""
-for ch in range(len(a)-1,-1,-1):
-    word+=a[ch]
-print(word)
+for i in a:
+    if i==word:
+        count+=1
+    print(count)
